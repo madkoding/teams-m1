@@ -1,27 +1,19 @@
-Microsoft Teams - Electron app
+Microsoft Teams M1 
 ===========================
 
-Microsoft Teams - Electron app is based on [Electron](https://electron.atom.io/) and let you use the Microsoft Teams webapp in a single window like a desktop application.
+Microsoft Teams electron app is based on [Electron](https://electron.atom.io/) and let you use the Microsoft Teams web for M1 desktop
 
 ## Install dependencies
 ```sh
 yarn
 ```
 
-## Run app in `DEV` mode
+## Run app in dev mode
 ```sh
 yarn start
 ```
 
-## Package app
+## Package app for m1
 ```sh
 yarn package
 ```
-
-## Build installer
-```sh
-# linux x64 .deb & .tar,gz files
-yarn build
-```
-# teams-m1
-# teams-m1
