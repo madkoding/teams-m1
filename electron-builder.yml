@@ -1,4 +1,4 @@
-appId: me.ionutachim.${name}
+appId: me.madkoding.${name}
 productName: "Microsoft Teams M1"
 darwin:
   icon: assets/icons
