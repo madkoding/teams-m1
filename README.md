@@ -17,3 +17,7 @@ yarn start
 ```sh
 yarn package
 ```
+
+## What don't work
+- Screen sharing
+
