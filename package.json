@@ -1,0 +1,28 @@
+{
+  "name": "microsoft-teams-m1",
+  "version": "1.0.0",
+  "description": "Microsoft Teams M1",
+  "productName": "Microsoft Teams M1",
+  "main": "main.js",
+  "repository": "https://github.com/monojack/microsoft-teams-electron.git",
+  "author": "madKoding <madkoding@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    "electron": "^18.0.2",
+    "electron-builder": "^22.14.13",
+    "electron-packager": "^15.0.4",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --overwrite --platform=darwin --arch=arm64 --icon=assets/icons/teams --prune=true --out=dist"
+  }
+}

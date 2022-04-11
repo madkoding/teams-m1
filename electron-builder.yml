@@ -1,0 +1,5 @@
+appId: me.ionutachim.${name}
+productName: "Microsoft Teams M1"
+darwin:
+  icon: assets/icons
+
