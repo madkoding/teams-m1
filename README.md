@@ -1,7 +1,7 @@
 Microsoft Teams M1 
 ===========================
 
-Microsoft Teams electron app is based on [Electron](https://electron.atom.io/) and let you use the Microsoft Teams web for M1 desktop
+Microsoft Teams electron app based on [Electron](https://electron.atom.io/). Lets you use Microsoft Teams web for Apple M1 desktop app.
 
 ## Install dependencies
 ```sh
@@ -13,11 +13,10 @@ yarn
 yarn start
 ```
 
-## Package app for m1
+## Package app for M1
 ```sh
 yarn package
 ```
 
-## What don't work
+## Doesn't work
 - Screen sharing
-
